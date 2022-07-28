@@ -1,4 +1,9 @@
 # HENKES_GAN
+
+
+[![DOI](https://zenodo.org/badge/518462527.svg)](https://zenodo.org/badge/latestdoi/518462527)
+
+
 Code of the publication "Three-dimensional microstructure generation using 
 generative adversarial neural networks in the context of continuum 
 micromechanics" published in 

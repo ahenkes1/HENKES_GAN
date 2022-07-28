@@ -1,8 +1,8 @@
 ﻿"""Code of the publication 'Three-dimensional microstructure generation using
-generative adversarial neural networks in the context of
-continuum micromechanics' published in https://doi.org/xxx
+generative adversarial neural networks in the context of continuum
+micromechanics' published in
+https://doi.org/10.48550/arXiv.2206.01693
 by Alexander Henkes and Henning Wessels from TU Braunschweig.
-
 This code utilizes JIT compilation with XLA.
 Use the following command to use it:
 'XLA_FLAGS=--xla_gpu_cuda_data_dir=/usr/local/cuda-11.2 python3 main.py'.
@@ -291,7 +291,8 @@ def get_input():
     long_description = str(
         "Code of the publication 'Three-dimensional microstructure generation "
         "using generative adversarial neural networks in the context of "
-        "continuum micromechanics' published in https://doi.org/xxx by "
+        "continuum micromechanics' published in "
+        "https://doi.org/10.48550/arXiv.2206.01693 by "
         "Alexander Henkes and Henning Wessels from TU Braunschweig. "
         "This code utilizes JIT compilation with XLA. Use the following "
         "command to use it: 'XLA_FLAGS=--xla_gpu_cuda_data_dir=/usr/local"
@@ -407,13 +408,6 @@ if __name__ == "__main__":
         )
     else:
         print("Graph Mode")
-
-    print(
-        "\n\nTo use JIT compile, use the following command and "
-        "activate it in 'src.gan.distributed_train_step()!'\n"
-        "XLA_FLAGS=--xla_gpu_cuda_data_dir=/usr/local/cuda-11.7 "
-        "python3 main.py\n\n"
-    )
 
     distributed_strategy = gpu(parser_args=args)
     main(parser_args=args, strategy=distributed_strategy)

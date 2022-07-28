@@ -1,16 +1,19 @@
 # HENKES_PINN
-Code of the publication "Physics informed neural networks for continuum micromechanics" published in https://doi.org/10.1016/j.cma.2022.114790 by Alexander Henkes and Henning Wessels from TU Braunschweig and Rolf Mahnken from University of Paderborn.
+Code of the publication "Three-dimensional microstructure generation using 
+generative adversarial neural networks in the context of continuum 
+micromechanics" published in 
+https://doi.org/10.48550/arXiv.2206.01693 by 
+Alexander Henkes and Henning Wessels from TU Braunschweig.
 
 Please cite the following paper:
 
-    @article{henkes2022physics,
-      title={Physics informed neural networks for continuum micromechanics},
-      author={Henkes, Alexander and Wessels, Henning and Mahnken, Rolf},
-      journal={Computer Methods in Applied Mechanics and Engineering},
-      volume={393},
-      pages={114790},
-      year={2022},
-      publisher={Elsevier}
+    @article{henkes2022three,
+      title={Three-dimensional microstructure generation 
+             using generative adversarial neural networks 
+             in the context of continuum micromechanics},
+      author={Henkes, Alexander and Wessels, Henning},
+      journal={arXiv preprint arXiv:2206.01693},
+      year={2022}
     }
 
 ... and the code using the CITATION.cff file.
@@ -55,3 +58,14 @@ The code may run using XLA (faster) using the following flag:
 
 where the correct cuda path and version have to be used.
 The Docker image runs XLA natively.
+
+# GPU
+The code uses mixed-precision. If your GPU has TensorCores, it will run much 
+faster. Otherwise, a warning will be displayed. Nevertheless, the memory 
+consumption is much lower in either case.
+
+# Tensorboard
+The code logs several metrics during training, which can be accessed via 
+Tensorboard. The logs can be found in the corresponding output folders.
+    
+    https://www.tensorflow.org/tensorboard

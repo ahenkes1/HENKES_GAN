@@ -1,4 +1,4 @@
-# HENKES_PINN
+# HENKES_GAN
 Code of the publication "Three-dimensional microstructure generation using 
 generative adversarial neural networks in the context of continuum 
 micromechanics" published in 

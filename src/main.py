@@ -1,7 +1,7 @@
 ﻿"""Code of the publication 'Three-dimensional microstructure generation using
 generative adversarial neural networks in the context of continuum
 micromechanics' published in
-https://doi.org/10.48550/arXiv.2206.01693
+https://doi.org/10.1016/j.cma.2022.115497
 by Alexander Henkes and Henning Wessels from TU Braunschweig.
 This code utilizes JIT compilation with XLA.
 Use the following command to use it:
@@ -292,7 +292,7 @@ def get_input():
         "Code of the publication 'Three-dimensional microstructure generation "
         "using generative adversarial neural networks in the context of "
         "continuum micromechanics' published in "
-        "https://doi.org/10.48550/arXiv.2206.01693 by "
+        "https://doi.org/10.1016/j.cma.2022.115497 by "
         "Alexander Henkes and Henning Wessels from TU Braunschweig. "
         "This code utilizes JIT compilation with XLA. Use the following "
         "command to use it: 'XLA_FLAGS=--xla_gpu_cuda_data_dir=/usr/local"

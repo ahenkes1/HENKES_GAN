@@ -36,11 +36,13 @@ preferred-citation:
           orcid: ' https://orcid.org/0000-0002-2542-1130 '
 
     title: "Three-dimensional microstructure generation using generative adversarial neural networks in the context of continuum micromechanics"
-    journal: "arXiv preprint arXiv:2206.01693"
+    journal: "Computer Methods in Applied Mechanics and Engineering"
     publisher:
-        name: "arXiv"
+        name: "Elsevier"
     year: "2022"
     type: "article"
+    doi: "10.1016/j.cma.2022.115497"
+    url: "https://doi.org/10.1016/j.cma.2022.115497"
 
 references:
     - type: "article"

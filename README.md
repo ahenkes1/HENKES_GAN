@@ -5,7 +5,7 @@
 Code of the publication "Three-dimensional microstructure generation using 
 generative adversarial neural networks in the context of continuum 
 micromechanics" published in 
-https://doi.org/10.48550/arXiv.2206.01693 by 
+https://doi.org/10.1016/j.cma.2022.115497 by 
 Alexander Henkes and Henning Wessels from TU Braunschweig.
 
 Please cite the following paper:
@@ -15,8 +15,11 @@ Please cite the following paper:
              using generative adversarial neural networks 
              in the context of continuum micromechanics},
       author={Henkes, Alexander and Wessels, Henning},
-      journal={arXiv preprint arXiv:2206.01693},
-      year={2022}
+      journal={Computer Methods in Applied Mechanics and Engineering},
+      volume={400},
+      pages={115497},
+      year={2022},
+      publisher={Elsevier}
     }
 
 ... and the code using the CITATION.cff file.
